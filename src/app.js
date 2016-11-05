@@ -18,8 +18,8 @@ mongoose.connect(config.db.url, (err) => {
 const app = express();
 
 // Middleware, Routing --------------------------------------------------------
-app.use(router());
 app.use(bodyParser.json());
+app.use(router());
 
 // Start Server ---------------------------------------------------------------
 app.listen(config.server.port, (err) => {
