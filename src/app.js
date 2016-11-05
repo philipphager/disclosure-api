@@ -22,5 +22,9 @@ app.use(router());
 app.use(bodyParser.json());
 
 // Start Server ---------------------------------------------------------------
-app.listen(config.server.port);
-console.log(`Disclosure server listening on port ${config.server.port}`);
+app.listen(config.server.port, (err) => {
+    if (!err) {
+        console.log(`Disclosure listening on port ${config.server.port}`);
+    }
+});
+
