@@ -2,7 +2,7 @@
   "name": "disclosure",
   "version": "0.0.1",
   "description": "Backend service for the disclosure Android app",
-  "main": "./app/index.js",
+  "main": "./src/app.js",
   "scripts": {
     "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"

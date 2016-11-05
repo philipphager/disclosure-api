@@ -4,8 +4,12 @@ const Schema = mongoose.Schema;
 
 // Schema ---------------------------------------------------------------------
 const librarySchema = new Schema({
-    packageName: { type: String, required: true, unique: true },
-    title: { type: String, required: true },
+    packageName: {
+        type: String, required: true, unique: true
+    },
+    title: {
+        type: String, required: true
+    },
     subtitle: String,
     description: String,
     type: String,
@@ -13,5 +17,5 @@ const librarySchema = new Schema({
     updatedAt: Date
 });
 
-var Library = mongoose.model('Library', librarySchema);
+const Library = mongoose.model('Library', librarySchema);
 module.exports = Library;
