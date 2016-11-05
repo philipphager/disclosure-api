@@ -9,7 +9,7 @@ const router = require('./router');
 mongoose.Promise = global.Promise;
 mongoose.connect(config.db.url, (err) => {
     if (err) {
-        return console.log('Error while connecting to mongodb');
+        return console.log(`Error while connecting to mongodb with ${config.db.url}`);
     }
     console.log(`Successfully connected with ${config.db.url}`);
 });
