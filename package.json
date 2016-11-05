@@ -7,6 +7,9 @@
     "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+  "node": "6.7.0"
+},
   "author": "Philipp Hager",
   "license": "ISC",
   "dependencies": {
