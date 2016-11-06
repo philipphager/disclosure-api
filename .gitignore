@@ -111,3 +111,7 @@ jspm_packages
 # Output of 'npm pack'
 *.tgz
 0
+
+
+### Heroku ###
+.env
