@@ -1,25 +1,35 @@
 // Dependency -----------------------------------------------------------------
 const express = require('express');
 const Library = require('../model/library');
+const querymen = require('querymen');
 
 // Routes ---------------------------------------------------------------------
 module.exports = () => {
     const router = express.Router();
 
     // List all libraries
-    router.route('/')
-        .get((req, res, next) => {
-            Library.find((err, libraries) => {
-                if (err) res.status(500).send(err);
+    router.route('/').get(querymen.middleware({
+        updatedSince: {
+            type: Date,
+            paths: ['updatedAt'],
+            operator: '$gte'
+        }
+    }), (req, res, next) => {
+        var query = req.querymen;
 
+        Library.find(query.query, query.select, query.cursor)
+            .then((libraries) => {
                 res.json(libraries);
+            })
+            .catch((err) => {
+                res.status(500).send(err);
             });
-        });
+    });
 
     // Find a single library by id
-    router.route('/:library_id')
+    router.route('/:libraryId')
         .get((req, res, next) => {
-            Library.findById(req.params.library_id, (err, library) => {
+            Library.findById(req.params.libraryId, (err, library) => {
                 if (err) res.status(500).send(err);
 
                 res.json(library);
@@ -31,41 +41,47 @@ module.exports = () => {
         .post((req, res, next) => {
             let library = new Library(req.body);
 
-            library.save(function(err) {
-                if (err) res.status(500).send(err);
-
-                res.sendStatus(200);
-            });
+            library.save()
+                .then((library) => {
+                    res.json(library);
+                })
+                .catch((err) => {
+                    res.status(500).send(err);
+                });
         });
 
     // Update a library
-    router.route('/:library_id')
+    router.route('/:libraryId')
         .put((req, res, next) => {
-            Library.findById(req.params.library_id, (err, library) => {
-                if (err) res.status(500).send(err);
-
-                library.title = req.body.title;
-                library.subtitle = req.body.subtitle;
-                library.description = req.body.description;
-                library.type = req.body.type;
-                library.save(function(err) {
-                    if (err) res.status(500).send(err);
-
-                    res.json(library);
+            Library.findById(req.params.libraryId)
+                .then((library) => {
+                    library.title = req.body.title;
+                    library.subtitle = req.body.subtitle;
+                    library.description = req.body.description;
+                    library.type = req.body.type;
+                    library.save()
+                        .then((library) => {
+                            res.json(library);
+                        })
+                        .catch((err) => {
+                            res.status(500).send(err);
+                        });
+                })
+                .catch((err) => {
+                    res.status(500).send(err);
                 });
-            });
         });
 
     // Delete a library
-    router.route('/:library_id')
+    router.route('/:libraryId')
         .delete((req, res, next) => {
-            Library.remove({
-                _id: req.params.library_id
-            }, (err) => {
-                if (err) res.status(500).send(err);
-
-                res.json({ message: 'successfully deleted' });
-            });
+            Library.remove({ _id: req.params.libraryId })
+                .then(() => {
+                    res.status(200).send();
+                })
+                .catch((err) => {
+                    res.status(500).send(err);
+                });
         });
 
     return router;
