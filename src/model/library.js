@@ -21,7 +21,7 @@ const librarySchema = new Schema({
 });
 
 librarySchema.pre('save', function (next) {
-    now = new Date();
+    let now = new Date();
     this.updatedAt = now;
 
     if (!this.createdAt) {
