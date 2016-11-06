@@ -12,9 +12,22 @@ const librarySchema = new Schema({
     },
     subtitle: String,
     description: String,
-    type: String,
+    type: {
+        type: String, 
+        enum: ['ANALYTICS', 'ADVERTISMENT', 'DEVELOPER', 'SOCIAL']
+    },
     createdAt: Date,
     updatedAt: Date
+});
+
+librarySchema.pre('save', function (next) {
+    now = new Date();
+    this.updatedAt = now;
+
+    if (!this.createdAt) {
+        this.createdAt = now;
+    }
+    next();
 });
 
 const Library = mongoose.model('Library', librarySchema);

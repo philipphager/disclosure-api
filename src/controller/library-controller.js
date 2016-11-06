@@ -31,7 +31,7 @@ module.exports = () => {
         .post((req, res, next) => {
             let library = new Library(req.body);
 
-            library.save(function (err) {
+            library.save(function(err) {
                 if (err) res.status(500).send(err);
 
                 res.sendStatus(200);
@@ -41,10 +41,18 @@ module.exports = () => {
     // Update a library
     router.route('/:library_id')
         .put((req, res, next) => {
-            Library.findOneAndUpdate(req.params.library_id, req.body, { new: true }, (err, library) => {
+            Library.findById(req.params.library_id, (err, library) => {
                 if (err) res.status(500).send(err);
 
-                res.json(library);
+                library.title = req.body.title;
+                library.subtitle = req.body.subtitle;
+                library.description = req.body.description;
+                library.type = req.body.type;
+                library.save(function(err) {
+                    if (err) res.status(500).send(err);
+
+                    res.json(library);
+                });
             });
         });
 
