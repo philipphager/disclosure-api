@@ -1,30 +1,30 @@
 // Dependency -----------------------------------------------------------------
+const express = require('express');
 const Library = require('../model/library');
 
 // Routes ---------------------------------------------------------------------
-module.exports = (router) => {
+module.exports = () => {
+    const router = express.Router();
+
     router.route('/')
         .get((req, res, next) => {
-            res.json({ message: 'hello' });
-        });
-
-    router.route('/libraries')
-        .get((req, res, next) => {
             Library.find((err, library) => {
-                if (err) res.send(err);
+                if (err) res.status(500).send(err);
 
                 res.json(library);
             });
         });
 
-    router.route('/libraries')
+    router.route('/')
         .post((req, res, next) => {
             let library = new Library(req.body);
 
             library.save(function (err) {
-                if (err) res.send(err);
+                if (err) res.status(500).send(err);
 
-                res.send(200);
+                res.sendStatus(200);
             });
         });
+
+    return router;
 };

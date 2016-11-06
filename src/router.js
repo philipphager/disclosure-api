@@ -1,9 +1,11 @@
 // Dependencies ---------------------------------------------------------------
 const express = require('express');
-const LibraryController = require('./controller/library-controller.js');
+const homeController = require('./controller/home-controller.js');
+const libraryController = require('./controller/library-controller.js');
 
 module.exports = () => {
-    const router = new express.Router();
-    const libraryController = LibraryController(router);
+    const router = express.Router();
+    router.use('/',  homeController());
+    router.use('/libraries',  libraryController());
     return router;
 };

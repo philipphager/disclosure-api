@@ -27,4 +27,3 @@ app.listen(config.server.port, (err) => {
         console.log(`Disclosure listening on port ${config.server.port}`);
     }
 });
-
