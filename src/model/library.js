@@ -14,11 +14,11 @@ const librarySchema = new Schema({
         required: true
     },
     subtitle: {
-        String,
+        type: String,
         required: true
     },
     description: {
-        String,
+        type: String,
         required: true
     },
     type: {
