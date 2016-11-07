@@ -12,7 +12,7 @@ module.exports = () => {
         updatedSince: {
             type: Date,
             paths: ['updatedAt'],
-            operator: '$gte'
+            operator: '$gt'
         }
     }), (req, res, next) => {
         var query = req.querymen;
