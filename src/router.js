@@ -1,7 +1,7 @@
 // Dependencies ---------------------------------------------------------------
 const express = require('express');
-const homeController = require('./controller/home-controller.js');
-const libraryController = require('./controller/library-controller.js');
+const homeController = require('./controller/home.js');
+const libraryController = require('./controller/library.js');
 
 module.exports = () => {
     const router = express.Router();

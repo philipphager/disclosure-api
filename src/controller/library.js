@@ -15,7 +15,7 @@ module.exports = () => {
             operator: '$gt'
         }
     }), (req, res, next) => {
-        var query = req.querymen;
+        let query = req.querymen;
 
         Library.find(query.query, query.select, query.cursor)
             .then((libraries) => {
@@ -29,12 +29,15 @@ module.exports = () => {
     // Find a single library by id
     router.route('/:libraryId')
         .get((req, res, next) => {
-            Library.findById(req.params.libraryId, (err, library) => {
-                if (err) res.status(500).send(err);
-
-                res.json(library);
-            });
+            Library.findById(req.params.libraryId)
+                .then((library) => {
+                    res.json(library);
+                })
+                .catch((err) => {
+                    res.status(500).send(err);
+                });
         });
+
 
     // Create a new library
     router.route('/new')
