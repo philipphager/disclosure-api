@@ -5,7 +5,7 @@ const libraryController = require('./controller/library.js');
 
 module.exports = () => {
     const router = express.Router();
-    router.use('/',  homeController());
-    router.use('/libraries',  libraryController());
+    router.use('/', homeController());
+    router.use('/libraries', libraryController());
     return router;
 };

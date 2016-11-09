@@ -8,12 +8,12 @@ const router = require('./router');
 // Database -------------------------------------------------------------------
 mongoose.Promise = global.Promise;
 mongoose.connect(config.db.url)
-.then(() => {
-    console.log(`Successfully connected with ${config.db.url}`);
-})
-.catch((err) => {
-    console.log(`Error while connecting to mongodb with ${config.db.url}`);
-});
+    .then(() => {
+        console.log(`Successfully connected with ${config.db.url}`);
+    })
+    .catch((err) => {
+        console.log(`Error while connecting to mongodb with ${config.db.url}`);
+    });
 
 // Express App ----------------------------------------------------------------
 const app = express();
@@ -24,6 +24,6 @@ app.use(router());
 
 // Start Server ---------------------------------------------------------------
 app.listen(config.server.port)
-.then(() => {
-    console.log(`Disclosure listening on port ${config.server.port}`);
-});
+    .then(() => {
+        console.log(`Disclosure listening on port ${config.server.port}`);
+    });

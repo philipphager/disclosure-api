@@ -5,12 +5,12 @@ const Schema = mongoose.Schema;
 // Schema ---------------------------------------------------------------------
 const librarySchema = new Schema({
     packageName: {
-        type: String, 
-        required: true, 
+        type: String,
+        required: true,
         unique: true
     },
     title: {
-        type: String, 
+        type: String,
         required: true
     },
     subtitle: {
@@ -22,7 +22,7 @@ const librarySchema = new Schema({
         required: true
     },
     type: {
-        type: String, 
+        type: String,
         enum: ['ANALYTICS', 'ADVERTISMENT', 'DEVELOPER', 'SOCIAL'],
         required: true
     },
