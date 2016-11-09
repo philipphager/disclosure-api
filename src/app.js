@@ -23,7 +23,8 @@ app.use(bodyParser.json());
 app.use(router());
 
 // Start Server ---------------------------------------------------------------
-app.listen(config.server.port)
-    .then(() => {
+app.listen(config.server.port, (err) => {
+    if (!err) {
         console.log(`Disclosure listening on port ${config.server.port}`);
-    });
+    }
+});
