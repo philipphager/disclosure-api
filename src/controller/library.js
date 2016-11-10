@@ -61,6 +61,7 @@ module.exports = () => {
                     library.title = req.body.title;
                     library.subtitle = req.body.subtitle;
                     library.description = req.body.description;
+                    library.websiteUrl = req.body.websiteUrl;
                     library.type = req.body.type;
                     library.save()
                         .then((library) => {

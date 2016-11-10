@@ -21,6 +21,9 @@ const librarySchema = new Schema({
         type: String,
         required: true
     },
+    websiteUrl: {
+        type: String
+    },
     type: {
         type: String,
         enum: ['ANALYTICS', 'ADVERTISMENT', 'DEVELOPER', 'SOCIAL'],
@@ -30,7 +33,7 @@ const librarySchema = new Schema({
     updatedAt: Date
 });
 
-librarySchema.pre('save', function (next) {
+librarySchema.pre('save', (next) => {
     let now = new Date();
     this.updatedAt = now;
 
