@@ -1,9 +1,9 @@
 // Dependencies ---------------------------------------------------------------
-const express = require('express');
-const mongoose = require('mongoose');
-const bodyParser = require('body-parser');
-const config = require('./env/config.js');
-const router = require('./router');
+const express = require('express'),
+    mongoose = require('mongoose'),
+    bodyParser = require('body-parser'),
+    config = require('./env/config.js'),
+    router = require('./router');
 
 // Database -------------------------------------------------------------------
 mongoose.Promise = global.Promise;
