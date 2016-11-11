@@ -3,6 +3,17 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 // Schema ---------------------------------------------------------------------
+const featureSchema = new Schema({
+    title: {
+        type: String,
+        required: true
+    },
+    description: {
+        type: String,
+        required: true
+    }
+});
+
 const librarySchema = new Schema({
     packageName: {
         type: String,
@@ -29,6 +40,7 @@ const librarySchema = new Schema({
         enum: ['ANALYTICS', 'ADVERTISMENT', 'DEVELOPER', 'SOCIAL'],
         required: true
     },
+    features: [featureSchema],
     createdAt: Date,
     updatedAt: Date
 });
