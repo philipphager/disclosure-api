@@ -6,11 +6,13 @@ const Schema = mongoose.Schema;
 const libraryFeatureSchema = new Schema({
     libraryId: {
         type: mongoose.Schema.ObjectId,
-        ref: 'Library'
+        ref: 'Library',
+        required: true
     }, 
     featureId: {
         type: mongoose.Schema.ObjectId,
-        ref: 'Feature'
+        ref: 'Feature',
+        required: true
     },
     createdAt: Date,
     updatedAt: Date
