@@ -56,17 +56,11 @@ module.exports = () => {
     // Update a relation
     router.route('/:id')
         .put((req, res, next) => {
-            LibraryFeature.findById(req.params.id)
+            let id = req.params.id;
+
+            LibraryFeature.findByIdAndUpdate(id, req.body, { new: true })
                 .then((libraryFeature) => {
-                    libraryFeature.featureId = req.body.featureId;
-                    libraryFeature.libraryId = req.body.libraryId;
-                    libraryFeature.save()
-                        .then((libraryFeature) => {
-                            res.json(libraryFeature);
-                        })
-                        .catch((err) => {
-                            res.status(500).send(err);
-                        });
+                    res.json(libraryFeature);
                 })
                 .catch((err) => {
                     res.status(500).send(err);

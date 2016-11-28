@@ -56,17 +56,11 @@ module.exports = () => {
     // Update a feature
     router.route('/:featureId')
         .put((req, res, next) => {
-            Feature.findById(req.params.featureId)
+            let id = req.params.featureId;
+
+            Feature.findByIdAndUpdate(id, req.body, { new: true })
                 .then((feature) => {
-                    feature.title = req.body.title;
-                    feature.description = req.body.description;
-                    feature.save()
-                        .then((feature) => {
-                            res.json(feature);
-                        })
-                        .catch((err) => {
-                            res.status(500).send(err);
-                        });
+                    res.json(feature);
                 })
                 .catch((err) => {
                     res.status(500).send(err);
