@@ -43,4 +43,14 @@ librarySchema.pre('save', function (next) {
     next();
 });
 
+librarySchema.pre('update', function (next) {
+    let now = new Date();
+    this.updatedAt = now;
+
+    if (!this.createdAt) {
+        this.createdAt = now;
+    }
+    next();
+});
+
 module.exports = mongoose.model('Library', librarySchema);

@@ -56,20 +56,11 @@ module.exports = () => {
     // Update a library
     router.route('/:libraryId')
         .put((req, res, next) => {
-            Library.findById(req.params.libraryId)
+            let id = req.params.libraryId;
+
+            Library.findByIdAndUpdate(id, req.body, { new: true })
                 .then((library) => {
-                    library.title = req.body.title;
-                    library.subtitle = req.body.subtitle;
-                    library.description = req.body.description;
-                    library.websiteUrl = req.body.websiteUrl;
-                    library.type = req.body.type;
-                    library.save()
-                        .then((library) => {
-                            res.json(library);
-                        })
-                        .catch((err) => {
-                            res.status(500).send(err);
-                        });
+                    res.json(library);
                 })
                 .catch((err) => {
                     res.status(500).send(err);
@@ -79,9 +70,11 @@ module.exports = () => {
     // Delete a library
     router.route('/:libraryId')
         .delete((req, res, next) => {
-            Library.remove({ _id: req.params.libraryId })
+            let id = req.params.libraryId;
+
+            Library.findByIdAndRemove(id)
                 .then(() => {
-                    res.status(200).send();
+                    res.status(204).send();
                 })
                 .catch((err) => {
                     res.status(500).send(err);
