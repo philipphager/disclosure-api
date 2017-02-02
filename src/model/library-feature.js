@@ -28,4 +28,8 @@ libraryFeatureSchema.pre('save', function (next) {
     next();
 });
 
+// Create second level db index to insure, that a combination
+// of library / feature is only saved once.
+libraryFeatureSchema.index({ libraryId: 1, featureId: 1 }, { unique: true });
+
 module.exports = mongoose.model('LibraryFeature', libraryFeatureSchema);
