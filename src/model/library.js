@@ -9,6 +9,10 @@ const librarySchema = new Schema({
         required: true,
         unique: true
     },
+    sourceDir: {
+        type: String,
+        required: true
+    },
     title: {
         type: String,
         required: true
