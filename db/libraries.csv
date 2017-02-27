@@ -1,0 +1,218 @@
+_id,packageName,sourceDir,title,subtitle,description,websiteUrl,type,createdAt,updatedAt
+ObjectId(58a794fa5fbc457423b17426),com.digitalsunray.advantage,com/digitalsunray/advantage,Digital Sunray,,,http://de.www.digitalsunray.com/,ADVERTISEMENT,2017-02-18T00:16:35.855Z,2017-02-18T00:16:35.858Z
+ObjectId(58a794fb5fbc457423b17427),com.crformeout.admob,com/crformeout/admob,Admob (repacked by Crformeout),,,,ADVERTISEMENT,2017-02-18T00:16:35.860Z,2017-02-18T00:16:35.860Z
+ObjectId(58a794fb5fbc457423b17429),com.smartadserver.library,com/smartadserver/library,SmartAdServer,,,http://www.smartadserver.com,ADVERTISEMENT,2017-02-18T00:16:35.861Z,2017-02-18T00:16:35.861Z
+ObjectId(58a794fb5fbc457423b1742a),com.aquafadas,com/aquafadas,Aquafadas,,,https://www.aquafadas.com/,ADVERTISEMENT,2017-02-18T00:16:35.861Z,2017-02-18T00:16:35.861Z
+ObjectId(58a794fc5fbc457423b1742b),com.citygrid.ads,com/citygrid/ads,CityGrid,,,http://www.citygrid.com/,ADVERTISEMENT,2017-02-18T00:16:35.861Z,2017-02-18T00:16:35.861Z
+ObjectId(58a794fc5fbc457423b1742c),com.dianjoy,com/dianjoy,Dianjoy,,,http://www.dianjoy.com,ADVERTISEMENT,2017-02-18T00:16:35.862Z,2017-02-18T00:16:35.862Z
+ObjectId(58a794fc5fbc457423b1742e),com.scoompa.ads,com/scoompa/ads,Scoompa Ads,,,https://www.scoompa.com/,ADVERTISEMENT,2017-02-18T00:16:35.863Z,2017-02-18T00:16:35.863Z
+ObjectId(58a794fd5fbc457423b1742f),com.rhythmnewmedia.android,com/rhythmnewmedia/android,Rythm NewMedia,,,http://www.rhythmnewmedia.com,ADVERTISEMENT,2017-02-18T00:16:35.863Z,2017-02-18T00:16:35.863Z
+ObjectId(58a794fd5fbc457423b17430),com.zestadz.android,com/zestadz/android,Zestadz,,,http://zestadz.com,ADVERTISEMENT,2017-02-18T00:16:35.864Z,2017-02-18T00:16:35.864Z
+ObjectId(58a794fd5fbc457423b17431),com.scoreloop.client,com/scoreloop/client,ScoreLoop,,,,ADVERTISEMENT,2017-02-18T00:16:35.864Z,2017-02-18T00:16:35.864Z
+ObjectId(58a794fd5fbc457423b17432),com.papaya,com/papaya,Papaya Mobile,,,http://www.ads.papayamobile.com/,ADVERTISEMENT,2017-02-18T00:16:35.865Z,2017-02-18T00:16:35.865Z
+ObjectId(58a794fe5fbc457423b17433),com.vungle.sdk,com/vungle/sdk,Vungle,,,https://v.vungle.com/,ADVERTISEMENT,2017-02-18T00:16:35.865Z,2017-02-18T00:16:35.865Z
+ObjectId(58a794fe5fbc457423b17434),com.adwhirl,com/adwhirl,AdWhirl,,,http://www.adwhirl.com,ADVERTISEMENT,2017-02-18T00:16:35.866Z,2017-02-18T00:16:35.866Z
+ObjectId(58a794fe5fbc457423b17435),com.dianru.adsdk,com/dianru/adsdk,Dianru,,,http://www.dianru.com/,ADVERTISEMENT,2017-02-18T00:16:35.867Z,2017-02-18T00:16:35.867Z
+ObjectId(58a794ff5fbc457423b17437),com.vpon.ads,com/vpon/ads,Vpon,,,http://www.vpon.com/,ADVERTISEMENT,2017-02-18T00:16:35.868Z,2017-02-18T00:16:35.868Z
+ObjectId(58a794ff5fbc457423b17438),com.sessionm,com/sessionm,SessionM,,,https://www.sessionm.com/,ADVERTISEMENT,2017-02-18T00:16:35.868Z,2017-02-18T00:16:35.868Z
+ObjectId(58a794ff5fbc457423b17439),com.pocketchange.android,com/pocketchange/android,Pocketchange,,,http://www.pocketchange.com/,ADVERTISEMENT,2017-02-18T00:16:35.868Z,2017-02-18T00:16:35.868Z
+ObjectId(58a795005fbc457423b1743b),com.kuad,com/kuad,Kuad,,,http://kuad.com/,ADVERTISEMENT,2017-02-18T00:16:35.870Z,2017-02-18T00:16:35.870Z
+ObjectId(58a795005fbc457423b1743e),com.comscore,com/comscore,Comscore,,,https://www.comscore.com/,ADVERTISEMENT,2017-02-18T00:16:35.872Z,2017-02-18T00:16:35.872Z
+ObjectId(58a795015fbc457423b17440),com.neodata.adagiosdk,com/neodata/adagiosdk,NeoData,,,http://neodata.com.au/,ADVERTISEMENT,2017-02-18T00:16:35.873Z,2017-02-18T00:16:35.873Z
+ObjectId(58a795015fbc457423b17441),com.applift.playads,com/applift/playads,AppLift,,,http://www.applift.com/,ADVERTISEMENT,2017-02-18T00:16:35.874Z,2017-02-18T00:16:35.874Z
+ObjectId(58a795015fbc457423b17442),com.motilityads,com/motilityads,Motility Ads,,,http://www.motilityads.com,ADVERTISEMENT,2017-02-18T00:16:35.875Z,2017-02-18T00:16:35.875Z
+ObjectId(58a795025fbc457423b17443),com.geosophic,com/geosophic,Geosophic,,,http://www.geosophic.com,ADVERTISEMENT,2017-02-18T00:16:35.876Z,2017-02-18T00:16:35.876Z
+ObjectId(58a795025fbc457423b17445),com.gramble.sdk,com/gramble/sdk,Gramble,,,,ADVERTISEMENT,2017-02-18T00:16:35.877Z,2017-02-18T00:16:35.877Z
+ObjectId(58a795025fbc457423b17446),com.sponsorpay.advertiser,com/sponsorpay/advertiser,Sponsorpay,,,http://www.sponsorpay.com,ADVERTISEMENT,2017-02-18T00:16:35.877Z,2017-02-18T00:16:35.877Z
+ObjectId(58a795035fbc457423b17447),com.qwapi.adclient,com/qwapi/adclient,adclient,,,,ADVERTISEMENT,2017-02-18T00:16:35.878Z,2017-02-18T00:16:35.878Z
+ObjectId(58a795045fbc457423b17449),com.amobee.adsdk,com/amobee/adsdk,Amobee,,,http://www.amobee.com/,ADVERTISEMENT,2017-02-18T00:16:35.879Z,2017-02-18T00:16:35.879Z
+ObjectId(58a795045fbc457423b1744a),com.adfonic.android,com/adfonic/android,Adfonic,,,http://adfonic.com/,ADVERTISEMENT,2017-02-18T00:16:35.879Z,2017-02-18T00:16:35.879Z
+ObjectId(58a795045fbc457423b1744b),com.admarvel,com/admarvel,AdMarvel,,,http://www.admarvel.com,ADVERTISEMENT,2017-02-18T00:16:35.880Z,2017-02-18T00:16:35.880Z
+ObjectId(58a795045fbc457423b1744c),com.onelouder.adlib,com/onelouder/adlib,OneLouder,,,http://www.onelouder.com/,ADVERTISEMENT,2017-02-18T00:16:35.881Z,2017-02-18T00:16:35.881Z
+ObjectId(58a795055fbc457423b1744f),com.madnet,com/madnet,Madnet,,,http://madnetex.com/,ADVERTISEMENT,2017-02-18T00:16:35.882Z,2017-02-18T00:16:35.882Z
+ObjectId(58a795055fbc457423b17450),com.wisesharksoftware.ad,com/wisesharksoftware/ad,Wise Shark Software,,,http://www.wisesharksoftware.com/,ADVERTISEMENT,2017-02-18T00:16:35.883Z,2017-02-18T00:16:35.883Z
+ObjectId(58a795065fbc457423b17451),com.appbucks,com/appbucks,AppBucks,,,http://app-bucks.com,ADVERTISEMENT,2017-02-18T00:16:35.883Z,2017-02-18T00:16:35.883Z
+ObjectId(58a795065fbc457423b17452),com.senddroid,com/senddroid,Senddroid - VIRUS,,,,ADVERTISEMENT,2017-02-18T00:16:35.884Z,2017-02-18T00:16:35.884Z
+ObjectId(58a795065fbc457423b17453),net.adcrops.sdk,net/adcrops/sdk,Adcrops,,,https://adcrops.net/,ADVERTISEMENT,2017-02-18T00:16:35.884Z,2017-02-18T00:16:35.884Z
+ObjectId(58a795065fbc457423b17454),com.jnj.mocospace,com/jnj/mocospace,MocoSpace,,,http://www.mocospace.com/,ADVERTISEMENT,2017-02-18T00:16:35.885Z,2017-02-18T00:16:35.885Z
+ObjectId(58a795075fbc457423b17456),com.mraid,com/mraid,MRaid,,,http://www.iab.net/mraid,ADVERTISEMENT,2017-02-18T00:16:35.887Z,2017-02-18T00:16:35.887Z
+ObjectId(58a795075fbc457423b17457),com.lifestreet.android,com/lifestreet/android,LifeStreet,,,http://www.lifestreet.com/,ADVERTISEMENT,2017-02-18T00:16:35.887Z,2017-02-18T00:16:35.887Z
+ObjectId(58a795075fbc457423b17458),com.vdopia,com/vdopia,Vdopia,,,http://www.vdopia.com/,ADVERTISEMENT,2017-02-18T00:16:35.887Z,2017-02-18T00:16:35.887Z
+ObjectId(58a795075fbc457423b17459),jp.adresult,jp/adresult,Adresult,,,http://www.adresult.jp/,ADVERTISEMENT,2017-02-18T00:16:35.888Z,2017-02-18T00:16:35.888Z
+ObjectId(58a795085fbc457423b1745a),com.mining.app,com/mining/app,Mining,,,www.mining.com/,ADVERTISEMENT,2017-02-18T00:16:35.888Z,2017-02-18T00:16:35.888Z
+ObjectId(58a795085fbc457423b1745c),com.rekmob.ads,com/rekmob/ads,Rekmob,,,https://www.rekmob.com/,ADVERTISEMENT,2017-02-18T00:16:35.889Z,2017-02-18T00:16:35.889Z
+ObjectId(58a795085fbc457423b1745d),anywheresoftware.b4a.admobwrapper,anywheresoftware/b4a/admobwrapper,Admob - AnywhereSoftware,,,https://www.b4x.com/,ADVERTISEMENT,2017-02-18T00:16:35.890Z,2017-02-18T00:16:35.890Z
+ObjectId(58a795095fbc457423b1745e),com.incross.bkadlibrary,com/incross/bkadlibrary,Incross,,,http://www.incross.com/,ADVERTISEMENT,2017-02-18T00:16:35.892Z,2017-02-18T00:16:35.892Z
+ObjectId(58a795095fbc457423b17460),com.adwo.adsdk,com/adwo/adsdk,Adwo,,,https://www.safedk.com/sdks/adwo-adwo,ADVERTISEMENT,2017-02-18T00:16:35.894Z,2017-02-18T00:16:35.894Z
+ObjectId(58a795095fbc457423b17461),com.adlocus,com/adlocus,AdLocus,,,https://adlocus.com/,ADVERTISEMENT,2017-02-18T00:16:35.896Z,2017-02-18T00:16:35.896Z
+ObjectId(58a7950a5fbc457423b17463),com.airpush,com/airpush,Airpush,,,http://www.airpush.com,ADVERTISEMENT,2017-02-18T00:16:35.899Z,2017-02-18T00:16:35.899Z
+ObjectId(58a7950a5fbc457423b17464),com.applovin.adview,com/applovin/adview,AppLovin,,,https://www.applovin.com/,ADVERTISEMENT,2017-02-18T00:16:35.900Z,2017-02-18T00:16:35.900Z
+ObjectId(58a7950a5fbc457423b17465),com.appbulous.adsdk,com/appbulous/adsdk,appbulous,,,https://angel.co/www-appbulous-com,ADVERTISEMENT,2017-02-18T00:16:35.901Z,2017-02-18T00:16:35.901Z
+ObjectId(58a7950b5fbc457423b17468),seventynine.sdk,seventynine/sdk,Seventynine,,,http://www.seventynine.mobi/,ADVERTISEMENT,2017-02-18T00:16:35.904Z,2017-02-18T00:16:35.904Z
+ObjectId(58a7950b5fbc457423b17469),io.presage.ads,io/presage/ads,Ogury - Presage,,,http://www.presage.io/,ADVERTISEMENT,2017-02-18T00:16:35.905Z,2017-02-18T00:16:35.905Z
+ObjectId(58a7950c5fbc457423b1746a),com.admogo,com/admogo,Admogo,,,https://www.admongo.gov/,ADVERTISEMENT,2017-02-18T00:16:35.905Z,2017-02-18T00:16:35.905Z
+ObjectId(58a7950c5fbc457423b1746b),vntis.admob,vntis/admob,Admob - Vntis,,,https://github.com/TaQuangTien/unity-vntis-google-mobile-ads,ADVERTISEMENT,2017-02-18T00:16:35.906Z,2017-02-18T00:16:35.906Z
+ObjectId(58a7950c5fbc457423b1746c),com.trymph.ads,com/trymph/ads,Trymph Ads,,,http://www.trymph.com/,ADVERTISEMENT,2017-02-18T00:16:35.906Z,2017-02-18T00:16:35.906Z
+ObjectId(58a7950d5fbc457423b1746e),com.adtech.mobilesdk,com/adtech/mobilesdk,AdTech,,,http://www.oneadserver.aol.com/,ADVERTISEMENT,2017-02-18T00:16:35.907Z,2017-02-18T00:16:35.907Z
+ObjectId(58a7950d5fbc457423b17470),com.google.adgoji,com/google/adgoji,Adgoji,,,http://www.adgoji.com/,ADVERTISEMENT,2017-02-18T00:16:35.908Z,2017-02-18T00:16:35.908Z
+ObjectId(58a7950e5fbc457423b17474),com.trialpay.android,com/trialpay/android,TrialPay,,,https://www.trialpay.com/,ADVERTISEMENT,2017-02-18T00:16:35.910Z,2017-02-18T00:16:35.910Z
+ObjectId(58a7950f5fbc457423b17477),com.kauf,com/kauf,Kaufcom,,,http://www.kauf.com/html/default.html,ADVERTISEMENT,2017-02-18T00:16:35.912Z,2017-02-18T00:16:35.915Z
+ObjectId(58a7950f5fbc457423b17478),com.mobileroadie,com/mobileroadie,Mobile Roadie,,,https://mobileroadie.com/,ADVERTISEMENT,2017-02-18T00:16:35.916Z,2017-02-18T00:16:35.916Z
+ObjectId(58a795105fbc457423b17479),com.go,com/go,Go,,,http://go.com/,ADVERTISEMENT,2017-02-18T00:16:35.917Z,2017-02-18T00:16:35.917Z
+ObjectId(58a795105fbc457423b1747a),com.nabrozidhs.admob,com/nabrozidhs/admob,Admob - Nabrozidhs,,,https://github.com/nabrozidhs/unity_admob_android,ADVERTISEMENT,2017-02-18T00:16:35.917Z,2017-02-18T00:16:35.917Z
+ObjectId(58a795105fbc457423b1747b),com.pontiflex,com/pontiflex,Flatronmedia,,,http://www.flatironmedia.com/,ADVERTISEMENT,2017-02-18T00:16:35.918Z,2017-02-18T00:16:35.918Z
+ObjectId(58a795115fbc457423b1747e),com.admofi.sdk,com/admofi/sdk,Admofi,,,http://admofi.com/cp/app/,ADVERTISEMENT,2017-02-18T00:16:35.920Z,2017-02-18T00:16:35.920Z
+ObjectId(58a795115fbc457423b1747f),com.liquidm,com/liquidm,LiquidM,,,http://liquidm.com/,ADVERTISEMENT,2017-02-18T00:16:35.920Z,2017-02-18T00:16:35.921Z
+ObjectId(58a795125fbc457423b17481),com.tappx.ads,com/tappx/ads,Tappx,,,http://www.tappx.com/,ADVERTISEMENT,2017-02-18T00:16:35.922Z,2017-02-18T00:16:35.922Z
+ObjectId(58a795125fbc457423b17482),com.cooguo.advideo,com/cooguo/advideo,Couguo,,,,ADVERTISEMENT,2017-02-18T00:16:35.922Z,2017-02-18T00:16:35.922Z
+ObjectId(58a795135fbc457423b17483),im.yixin.sdk,im/yixin/sdk,Yixin,,,http://yixin.im/,ADVERTISEMENT,2017-02-18T00:16:35.922Z,2017-02-18T00:16:35.922Z
+ObjectId(58a795135fbc457423b17484),com.adsage.sdk,com/adsage/sdk,adSage,,,http://www.adsage.com/,ADVERTISEMENT,2017-02-18T00:16:35.923Z,2017-02-18T00:16:35.923Z
+ObjectId(58a795135fbc457423b17485),com.uucun.adsdk,com/uucun/adsdk,UUCun,,,http://www.uucun.com/,ADVERTISEMENT,2017-02-18T00:16:35.923Z,2017-02-18T00:16:35.923Z
+ObjectId(58a795145fbc457423b17486),com.slacker,com/slacker,Slacker,,,http://www.slacker.com/,ADVERTISEMENT,2017-02-18T00:16:35.924Z,2017-02-18T00:16:35.924Z
+ObjectId(58a795155fbc457423b1748a),com.amoad,com/amoad,Amoad,,,http://www.amoad.com/,ADVERTISEMENT,2017-02-18T00:16:35.925Z,2017-02-18T00:16:35.925Z
+ObjectId(58a795155fbc457423b1748b),com.misterbell.advertising,com/misterbell/advertising,Mister Bell,,,www.misterbell.co.uk,ADVERTISEMENT,2017-02-18T00:16:35.927Z,2017-02-18T00:16:35.927Z
+ObjectId(58a795155fbc457423b1748d),com.amaze.ad,com/amaze/ad,Amaze,,,https://www.amaze.com/,ADVERTISEMENT,2017-02-18T00:16:35.928Z,2017-02-18T00:16:35.928Z
+ObjectId(58a795165fbc457423b1748e),com.yoc,com/yoc,YOC,,,https://group.yoc.com/,ADVERTISEMENT,2017-02-18T00:16:35.929Z,2017-02-18T00:16:35.929Z
+ObjectId(58a795165fbc457423b1748f),com.ihs,com/ihs,IHS,,,https://www.ihs.com/index.html,ADVERTISEMENT,2017-02-18T00:16:35.929Z,2017-02-18T00:16:35.929Z
+ObjectId(58a795165fbc457423b17490),com.jirbo,com/jirbo,Jirbo,,,http://jirbo.com,ADVERTISEMENT,2017-02-18T00:16:35.930Z,2017-02-18T00:16:35.930Z
+ObjectId(58a795165fbc457423b17491),com.wandoujia.ads,com/wandoujia/ads,Wandoujia,,,https://www.wandoujia.com/,ADVERTISEMENT,2017-02-18T00:16:35.930Z,2017-02-18T00:16:35.930Z
+ObjectId(58a795175fbc457423b17492),com.aduwant.ads,com/aduwant/ads,ADUWant,,,https://aduwant.com,ADVERTISEMENT,2017-02-18T00:16:35.930Z,2017-02-18T00:16:35.930Z
+ObjectId(58a795175fbc457423b17493),ru.adfox.android,ru/adfox/android,Adfox,,,https://www.adfox.ru/,ADVERTISEMENT,2017-02-18T00:16:35.930Z,2017-02-18T00:16:35.930Z
+ObjectId(58a795175fbc457423b17494),com.flurry,com/flurry,Flurry - Yahoo,,,https://dev.flurry.com/,ADVERTISEMENT,2017-02-18T00:16:35.931Z,2017-02-18T00:16:35.931Z
+ObjectId(58a795175fbc457423b17495),com.smaato.soma,com/smaato/soma,Smaato,,,https://www.smaato.com/,ADVERTISEMENT,2017-02-18T00:16:35.931Z,2017-02-18T00:16:35.931Z
+ObjectId(58a795185fbc457423b17496),sg.radioactive,sg/radioactive,RADIOactive,,,http://radioactive.sg/,ADVERTISEMENT,2017-02-18T00:16:35.931Z,2017-02-18T00:16:35.931Z
+ObjectId(58a795185fbc457423b17498),com.moonglabs.ads,com/moonglabs/ads,Moonglabs,,,http://moonglabs.com/,ADVERTISEMENT,2017-02-18T00:16:35.932Z,2017-02-18T00:16:35.932Z
+ObjectId(58a795185fbc457423b17499),com.ru.weborama,com/ru/weborama,Weborama,,,http://www.weborama.com/,ADVERTISEMENT,2017-02-18T00:16:35.932Z,2017-02-18T00:16:35.932Z
+ObjectId(58a795195fbc457423b1749a),tw.mobiforce,tw/mobiforce,Mobi-Force,,,http://www.mobi-force.com/,ADVERTISEMENT,2017-02-18T00:16:35.933Z,2017-02-18T00:16:35.933Z
+ObjectId(58a795195fbc457423b1749b),com.am.adlib,com/am/adlib,AM,,,https://www.am.com/,ADVERTISEMENT,2017-02-18T00:16:35.933Z,2017-02-18T00:16:35.933Z
+ObjectId(58a795195fbc457423b1749c),com.revmob,com/revmob,Revmob,,,https://www.revmobmobileadnetwork.com/,ADVERTISEMENT,2017-02-18T00:16:35.934Z,2017-02-18T00:16:35.934Z
+ObjectId(58a7951a5fbc457423b1749f),com.gfan.sdk,com/gfan/sdk,GFAN,,,http://www.gfan.com/,ADVERTISEMENT,2017-02-18T00:16:35.935Z,2017-02-18T00:16:35.935Z
+ObjectId(58a7951a5fbc457423b174a0),com.kiwiup.promotion,com/kiwiup/promotion,Kiwi,,,http://www.kiwiup.com/,ADVERTISEMENT,2017-02-18T00:16:35.935Z,2017-02-18T00:16:35.935Z
+ObjectId(58a7951b5fbc457423b174a1),com.adiquity.android,com/adiquity/android,AdiQuity,,,http://adiquity.com/,ADVERTISEMENT,2017-02-18T00:16:35.936Z,2017-02-18T00:16:35.936Z
+ObjectId(58a7951b5fbc457423b174a2),cn.appmedia.ad,cn/appmedia/ad,AppMedia,,,http://www.appmedia.de/,ADVERTISEMENT,2017-02-18T00:16:35.936Z,2017-02-18T00:16:35.936Z
+ObjectId(58a7951b5fbc457423b174a3),com.clickforce.ad,com/clickforce/ad,Clickforce,,,http://www.clickforce.com.tw/,ADVERTISEMENT,2017-02-18T00:16:35.937Z,2017-02-18T00:16:35.937Z
+ObjectId(58a7951c5fbc457423b174a4),com.mobclix.android,com/mobclix/android,Mobclix - Velti,,,http://www.velti.com/mobclix.php,ADVERTISEMENT,2017-02-18T00:16:35.938Z,2017-02-18T00:16:35.938Z
+ObjectId(58a7951c5fbc457423b174a5),com.ad_stir,com/ad_stir,AdStir,,,https://ad-stir.com,ADVERTISEMENT,2017-02-18T00:16:35.939Z,2017-02-18T00:16:35.939Z
+ObjectId(58a7951c5fbc457423b174a7),jp.Adlantis.Android,jp/Adlantis/Android,AdLantis,,,https://sp.www.adlantis.jp/,ADVERTISEMENT,2017-02-18T00:16:35.940Z,2017-02-18T00:16:35.940Z
+ObjectId(58a7951d5fbc457423b174a8),com.mtrip,com/mtrip,mtrip,,,https://www.mtrip.com/,ADVERTISEMENT,2017-02-18T00:16:35.941Z,2017-02-18T00:16:35.941Z
+ObjectId(58a7951d5fbc457423b174a9),com.hammerhead,com/hammerhead,Hammerhead,,,http://www.hammerheadadvertising.com,ADVERTISEMENT,2017-02-18T00:16:35.942Z,2017-02-18T00:16:35.943Z
+ObjectId(58a7951d5fbc457423b174ab),com.revolabinc.goodad,com/revolabinc/goodad,Revolabinc,,,https://www.revolabinc.com/,ADVERTISEMENT,2017-02-18T00:16:35.944Z,2017-02-18T00:16:35.944Z
+ObjectId(58a7951e5fbc457423b174ad),com.turner.android,com/turner/android,Turner,,,http://www.turner.com/,ADVERTISEMENT,2017-02-18T00:16:35.945Z,2017-02-18T00:16:35.945Z
+ObjectId(58a7951e5fbc457423b174af),com.qiang.escore,com/qiang/escore,Qiang Escore,,,,ADVERTISEMENT,2017-02-18T00:16:35.947Z,2017-02-18T00:16:35.947Z
+ObjectId(58a7951f5fbc457423b174b0),com.purplebrain.adbuddiz,com/purplebrain/adbuddiz,AdBuddiz - PurpleBrain,,,https://www.adbuddiz.com/developers,ADVERTISEMENT,2017-02-18T00:16:35.947Z,2017-02-18T00:16:35.947Z
+ObjectId(58a7951f5fbc457423b174b1),com.mopub.nativeads,com/mopub/nativeads,Mopub Native Ads,,,http://www.mopub.com/,ADVERTISEMENT,2017-02-18T00:16:35.949Z,2017-02-18T00:16:35.949Z
+ObjectId(58a7951f5fbc457423b174b2),cn.waps.extend,cn/waps/extend,Waps,,,http://waps.cn/,ADVERTISEMENT,2017-02-18T00:16:35.951Z,2017-02-18T00:16:35.951Z
+ObjectId(58a795205fbc457423b174b3),in.spicelabs.ads,in/spicelabs/ads,Spicelabs Ads,,,http://spicelabs.in/about.html,ADVERTISEMENT,2017-02-18T00:16:35.952Z,2017-02-18T00:16:35.952Z
+ObjectId(58a795205fbc457423b174b4),com.adsmogo,com/adsmogo,AdsMogo,,,www.adsmogo.com/,ADVERTISEMENT,2017-02-18T00:16:35.953Z,2017-02-18T00:16:35.953Z
+ObjectId(58a795205fbc457423b174b5),com.mobmatrix,com/mobmatrix,Mobmatrix,,,http://www.mobmatrix.com/,ADVERTISEMENT,2017-02-18T00:16:35.954Z,2017-02-18T00:16:35.954Z
+ObjectId(58a795205fbc457423b174b6),com.emar.escore,com/emar/escore,Escore,,,www.escore.gr/,ADVERTISEMENT,2017-02-18T00:16:35.954Z,2017-02-18T00:16:35.954Z
+ObjectId(58a795215fbc457423b174b7),com.pureagency.pureroi,com/pureagency/pureroi,PureAgency,,,https://www.pure-agency.de/,ADVERTISEMENT,2017-02-18T00:16:35.955Z,2017-02-18T00:16:35.955Z
+ObjectId(58a795215fbc457423b174b8),net.ldmobile.adit,net/ldmobile/adit,LDMobile,,,http://www.ldmobile.net,ADVERTISEMENT,2017-02-18T00:16:35.956Z,2017-02-18T00:16:35.956Z
+ObjectId(58a795225fbc457423b174ba),com.tss21.ad,com/tss21/ad,Tss21,,,http://tss21.co.jp.hypestat.com/,ADVERTISEMENT,2017-02-18T00:16:35.957Z,2017-02-18T00:16:35.957Z
+ObjectId(58a795225fbc457423b174bb),com.adlooper.sdk,com/adlooper/sdk,Ad Looper,,,adlooper.weebly.com/,ADVERTISEMENT,2017-02-18T00:16:35.958Z,2017-02-18T00:16:35.958Z
+ObjectId(58a795225fbc457423b174bd),com.mobage,com/mobage,Mobage,,,http://mobage.com/,ADVERTISEMENT,2017-02-18T00:16:35.959Z,2017-02-18T00:16:35.959Z
+ObjectId(58a795235fbc457423b174be),com.playerize.superrewards,com/playerize/superrewards,Playerize - Superrewards,,,https://superrewards.com/,ADVERTISEMENT,2017-02-18T00:16:35.961Z,2017-02-18T00:16:35.961Z
+ObjectId(58a795235fbc457423b174bf),com.appsfire.appbooster,com/appsfire/appbooster,Appsfire Appbooster,,,http://appsfire.com/,ADVERTISEMENT,2017-02-18T00:16:35.962Z,2017-02-18T00:16:35.962Z
+ObjectId(58a795235fbc457423b174c0),com.unity3d.ads,com/unity3d/ads,Unity3d Ads,,,https://unity3d.com/de/services/ads,ADVERTISEMENT,2017-02-18T00:16:35.962Z,2017-02-18T00:16:35.962Z
+ObjectId(58a795235fbc457423b174c1),jp.gmotech.smaad,jp/gmotech/smaad,Gmo Tech,,,https://gmotech.jp/,ADVERTISEMENT,2017-02-18T00:16:35.963Z,2017-02-18T00:16:35.963Z
+ObjectId(58a795245fbc457423b174c2),com.adchina.android,com/adchina/android,AdChina,,,http://adchina.com,ADVERTISEMENT,2017-02-18T00:16:35.964Z,2017-02-18T00:16:35.964Z
+ObjectId(58a795245fbc457423b174c3),com.octobird.advertising,com/octobird/advertising,Octobird,,,https://octobird.com/en/,ADVERTISEMENT,2017-02-18T00:16:35.964Z,2017-02-18T00:16:35.964Z
+ObjectId(58a795245fbc457423b174c4),com.ngigroup.adstir,com/ngigroup/adstir,Ngigroup Adstir,,,http://www.ngigroup.fr/,ADVERTISEMENT,2017-02-18T00:16:35.965Z,2017-02-18T00:16:35.965Z
+ObjectId(58a795255fbc457423b174c6),com.distilledmedia,com/distilledmedia,Distilled SCH,,,http://distilledsch.ie/,ADVERTISEMENT,2017-02-18T00:16:35.966Z,2017-02-18T00:16:35.967Z
+ObjectId(58a795255fbc457423b174c7),com.hyprmx.android,com/hyprmx/android,HyprMx,,,https://www.hyprmx.com/,ADVERTISEMENT,2017-02-18T00:16:35.968Z,2017-02-18T00:16:35.968Z
+ObjectId(58a795255fbc457423b174c8),tv.freewheel.ad,tv/freewheel/ad,FreeWheel,,,http://freewheel.tv/,ADVERTISEMENT,2017-02-18T00:16:35.968Z,2017-02-18T00:16:35.968Z
+ObjectId(58a795265fbc457423b174c9),com.pinsightmediaplus.advertising,com/pinsightmediaplus/advertising,Pinsight Media,,,http://www.pinsightmediaplus.com/,ADVERTISEMENT,2017-02-18T00:16:35.969Z,2017-02-18T00:16:35.969Z
+ObjectId(58a795265fbc457423b174cb),com.microeyes.admob,com/microeyes/admob,Admob (repackaged by Microeyes),,,,ADVERTISEMENT,2017-02-18T00:16:35.970Z,2017-02-18T00:16:35.970Z
+ObjectId(58a795265fbc457423b174cc),jp.adlantis,jp/adlantis,Adlantis,,,https://sp.www.adlantis.jp/,ADVERTISEMENT,2017-02-18T00:16:35.971Z,2017-02-18T00:16:35.971Z
+ObjectId(58a795275fbc457423b174cd),com.voxel,com/voxel,Voxel,,,http://www.voxel.com/,ADVERTISEMENT,2017-02-18T00:16:35.972Z,2017-02-18T00:16:35.972Z
+ObjectId(58a795275fbc457423b174cf),com.massiveimpact,com/massiveimpact,Massive Impact,,,http://www.massiveimpact.com/,ADVERTISEMENT,2017-02-18T00:16:35.974Z,2017-02-18T00:16:35.974Z
+ObjectId(58a795275fbc457423b174d0),com.widespace,com/widespace,Widespace,,,http://www.widespace.com/de/,ADVERTISEMENT,2017-02-18T00:16:35.975Z,2017-02-18T00:16:35.975Z
+ObjectId(58a795285fbc457423b174d2),vpoint.ads.obj,vpoint/ads/obj,Vpoint Ads,,,,ADVERTISEMENT,2017-02-18T00:16:35.976Z,2017-02-18T00:16:35.976Z
+ObjectId(58a795285fbc457423b174d3),com.adswizz.phantom,com/adswizz/phantom,AdSwizz Phantom,,,http://www.adswizz.com/,ADVERTISEMENT,2017-02-18T00:16:35.977Z,2017-02-18T00:16:35.977Z
+ObjectId(58a795285fbc457423b174d4),com.millennialmedia,com/millennialmedia,Millennialmedia,,,http://www.millennialmedia.com/,ADVERTISEMENT,2017-02-18T00:16:35.977Z,2017-02-18T00:16:35.977Z
+ObjectId(58a795295fbc457423b174d5),com.appma.ad,com/appma/ad,Appma,,,,ADVERTISEMENT,2017-02-18T00:16:35.977Z,2017-02-18T00:16:35.977Z
+ObjectId(58a795295fbc457423b174d6),com.tokenads.sdk,com/tokenads/sdk,Tokenads - Woobi,,,http://woobi.com/,ADVERTISEMENT,2017-02-18T00:16:35.978Z,2017-02-18T00:16:35.978Z
+ObjectId(58a795295fbc457423b174d8),com.igaworks.AdPOPcornTracerSDK,com/igaworks/AdPOPcornTracerSDK,AdPOPcornTracerSDK (Virus Warning),,,,ADVERTISEMENT,2017-02-18T00:16:35.980Z,2017-02-18T00:16:35.980Z
+ObjectId(58a7952a5fbc457423b174d9),com.vervewireless.advert,com/vervewireless/advert,Verve Mobile,,,http://www.vervemobile.com/,ADVERTISEMENT,2017-02-18T00:16:35.980Z,2017-02-18T00:16:35.980Z
+ObjectId(58a7952a5fbc457423b174da),com.jumptap.adtag,com/jumptap/adtag,Jumptap AdTag,,,http://www.jumptap.com,ADVERTISEMENT,2017-02-18T00:16:35.981Z,2017-02-18T00:16:35.981Z
+ObjectId(58a7952a5fbc457423b174db),com.tapifier.admob,com/tapifier/admob,Admob (repackaged by Tapifier),,,,ADVERTISEMENT,2017-02-18T00:16:35.981Z,2017-02-18T00:16:35.981Z
+ObjectId(58a7952a5fbc457423b174dc),com.ad2play,com/ad2play,Ad2Play,,,,ADVERTISEMENT,2017-02-18T00:16:35.982Z,2017-02-18T00:16:35.982Z
+ObjectId(58a7952b5fbc457423b174dd),com.acerolamob,com/acerolamob,Acerola Mobile,,,https://acerolamob.com/,ADVERTISEMENT,2017-02-18T00:16:35.982Z,2017-02-18T00:16:35.982Z
+ObjectId(58a7952b5fbc457423b174de),com.webtrends.mobile,com/webtrends/mobile,Webtrends,,,https://www.webtrends.com/?dcsref=www.webtrends.de&dcssta=301,ADVERTISEMENT,2017-02-18T00:16:35.983Z,2017-02-18T00:16:35.983Z
+ObjectId(58a7952c5fbc457423b174df),com.mobcent.ad,com/mobcent/ad,Mobcent,,,http://www.mobcent.com,ADVERTISEMENT,2017-02-18T00:16:35.983Z,2017-02-18T00:16:35.983Z
+ObjectId(58a7952c5fbc457423b174e0),com.hiiir,com/hiiir,hiiir,,,,ADVERTISEMENT,2017-02-18T00:16:35.984Z,2017-02-18T00:16:35.984Z
+ObjectId(58a7952c5fbc457423b174e1),com.tapjoy,com/tapjoy,Tapjoy,,,https://my.tapjoy.com/,ADVERTISEMENT,2017-02-18T00:16:35.987Z,2017-02-18T00:16:35.987Z
+ObjectId(58a7952d5fbc457423b174e3),cn.domob,cn/domob,Domob,,,http://www.mobyaffiliates.com/mobile-advertising-networks/domob/,ADVERTISEMENT,2017-02-18T00:16:35.989Z,2017-02-18T00:16:35.989Z
+ObjectId(58a7952d5fbc457423b174e4),org.burlock.amazonads,org/burlock/amazonads,Amazon Ads (repackaged by Bulock),,,http://apps.burlock.org/easy-amazon-ads-plugin-for-unity/,ADVERTISEMENT,2017-02-18T00:16:35.989Z,2017-02-18T00:16:35.989Z
+ObjectId(58a7952d5fbc457423b174e5),com.applifier.impact,com/applifier/impact,Applifier,,,http://www.applifier.com,ADVERTISEMENT,2017-02-18T00:16:35.991Z,2017-02-18T00:16:35.991Z
+ObjectId(58a7952d5fbc457423b174e6),com.facebook.ads,com/facebook/ads,Facebook Native Ads,,,https://developers.facebook.com/docs/audience-network/android-native,ADVERTISEMENT,2017-02-18T00:16:35.992Z,2017-02-18T00:16:35.992Z
+ObjectId(58a7952e5fbc457423b174e7),com.vpadn,com/vpadn,Vpadn Ads,,,https://vpon-sdk.github.io/android/banner/,ADVERTISEMENT,2017-02-18T00:16:35.992Z,2017-02-18T00:16:35.992Z
+ObjectId(58a7952e5fbc457423b174e9),com.adknowledge.superrewards,com/adknowledge/superrewards,AdKnowledge - Superrewards,,,http://www.adknowledge.com/,ADVERTISEMENT,2017-02-18T00:16:36.002Z,2017-02-18T00:16:36.002Z
+ObjectId(58a7952f5fbc457423b174ea),com.adappter.sdk,com/adappter/sdk,Adappter,,,http://www.adappter.net,ADVERTISEMENT,2017-02-18T00:16:36.003Z,2017-02-18T00:16:36.003Z
+ObjectId(58a7952f5fbc457423b174eb),mobpartner.ad.sdk,mobpartner/ad/sdk,MobPartner,,,http://www.cheetahmedialink.com/,ADVERTISEMENT,2017-02-18T00:16:36.004Z,2017-02-18T00:16:36.004Z
+ObjectId(58a7952f5fbc457423b174ec),com.pennwell,com/pennwell,Pennwell,,,http://www.pennwell.com/index.html,ADVERTISEMENT,2017-02-18T00:16:36.004Z,2017-02-18T00:16:36.004Z
+ObjectId(58a7952f5fbc457423b174ed),com.kuadcpa,com/kuadcpa,Waystorm - Kuadcpa,,,http://www.waystorm.com/,ADVERTISEMENT,2017-02-18T00:16:36.005Z,2017-02-18T00:16:36.005Z
+ObjectId(58a795305fbc457423b174ef),com.tapit,com/tapit,Phunware - Tapit,,,https://ads.tapit.com/,ADVERTISEMENT,2017-02-18T00:16:36.005Z,2017-02-18T00:16:36.006Z
+ObjectId(58a795305fbc457423b174f0),com.startapp.android,com/startapp/android,StartApp,,,http://lp.startapp.com/uni/,ADVERTISEMENT,2017-02-18T00:16:36.006Z,2017-02-18T00:16:36.006Z
+ObjectId(58a795315fbc457423b174f1),com.Leadbolt,com/Leadbolt,Leadbolt,,,https://www.leadbolt.com/,ADVERTISEMENT,2017-02-18T00:16:36.006Z,2017-02-18T00:16:36.006Z
+ObjectId(58a795315fbc457423b174f2),com.cyberbounty.adapplib,com/cyberbounty/adapplib,CyberBounty - MobTab,,,http://www.mobtap.com/,ADVERTISEMENT,2017-02-18T00:16:36.006Z,2017-02-18T00:16:36.006Z
+ObjectId(58a795315fbc457423b174f4),com.adgoji,com/adgoji,adgoji,,,http://www.adgoji.com/,ADVERTISEMENT,2017-02-18T00:16:36.007Z,2017-02-18T00:16:36.007Z
+ObjectId(58a795325fbc457423b174f6),com.bitforce.apponsor,com/bitforce/apponsor,apponsor,,,http://www.bitforce-it.de/it-loesungen/apponsor/,ADVERTISEMENT,2017-02-18T00:16:36.008Z,2017-02-18T00:16:36.008Z
+ObjectId(58a795335fbc457423b174f8),jason.advert.airpush,jason/advert/airpush,Airpush,,,http://www.airpush.com/,ADVERTISEMENT,2017-02-18T00:16:36.009Z,2017-02-18T00:16:36.009Z
+ObjectId(58a795335fbc457423b174fa),com.vodafone.amobee,com/vodafone/amobee,Amobee,,,http://amobee.com/,ADVERTISEMENT,2017-02-18T00:16:36.010Z,2017-02-18T00:16:36.010Z
+ObjectId(58a795335fbc457423b174fb),com.auditude.ads,com/auditude/ads,Auditude,,,http://www.auditude.com/,ADVERTISEMENT,2017-02-18T00:16:36.010Z,2017-02-18T00:16:36.010Z
+ObjectId(58a795345fbc457423b174fc),com.hotmob.android,com/hotmob/android,HotMob,,,http://www.hot-mob.com/,ADVERTISEMENT,2017-02-18T00:16:36.011Z,2017-02-18T00:16:36.011Z
+ObjectId(58a795345fbc457423b174fd),com.tomorrownetworks,com/tomorrownetworks,Tomorrownetworks,,,http://www.tomorrownetworks.com/,ADVERTISEMENT,2017-02-18T00:16:36.011Z,2017-02-18T00:16:36.011Z
+ObjectId(58a795345fbc457423b174fe),com.quantcast,com/quantcast,Quantcast,,,https://www.quantcast.de/,ADVERTISEMENT,2017-02-18T00:16:36.011Z,2017-02-18T00:16:36.011Z
+ObjectId(58a795345fbc457423b174ff),com.ad4kids.mobileads,com/ad4kids/mobileads,Ad4Kids,,,http://www.superawesome.tv/en/,ADVERTISEMENT,2017-02-18T00:16:36.012Z,2017-02-18T00:16:36.012Z
+ObjectId(58a795355fbc457423b17500),com.nexage.ormma,com/nexage/ormma,Nexage Ormma,,,http://www.nexage.com/,ADVERTISEMENT,2017-02-18T00:16:36.012Z,2017-02-18T00:16:36.012Z
+ObjectId(58a795355fbc457423b17501),com.ad4screen.sdk,com/ad4screen/sdk,Ad4Screen,,,http://www.ad4screen.com/,ADVERTISEMENT,2017-02-18T00:16:36.012Z,2017-02-20T00:16:36.012Z
+ObjectId(58a795355fbc457423b17502),com.waystorm.ads,com/waystorm/ads,Waystorm,,,http://www.waystorm.com/about.htm;jsessionid=00E9F444714C8F0B068C56D75D0F04CB,ADVERTISEMENT,2017-02-18T00:16:36.013Z,2017-02-18T00:16:36.013Z
+ObjectId(58a795355fbc457423b17503),vn.adflex,vn/adflex,Adflex,,,https://www.lyondellbasell.com/en/products-technology/polymers/trade-name/adflex/,ADVERTISEMENT,2017-02-18T00:16:36.013Z,2017-02-18T00:16:36.013Z
+ObjectId(58a795365fbc457423b17504),jp.adstore.tracking,jp/adstore/tracking,Adstore Tracking,,,http://adinnovation.co.jp/tracking,ADVERTISEMENT,2017-02-18T00:16:36.013Z,2017-02-18T00:16:36.013Z
+ObjectId(58a795365fbc457423b17505),com.adaffix,com/adaffix,adaffix,,,http://adaffix.com/,ADVERTISEMENT,2017-02-18T00:16:36.014Z,2017-02-18T00:16:36.014Z
+ObjectId(58a795365fbc457423b17506),com.appia,com/appia,Digital Turbine - Appia,,,http://ir.digitalturbine.com/,ADVERTISEMENT,2017-02-18T00:16:36.014Z,2017-02-18T00:16:36.014Z
+ObjectId(58a795365fbc457423b17507),com.fusepowered.ads,com/fusepowered/ads,FusePowered,,,https://www.fusepowered.com/,ADVERTISEMENT,2017-02-18T00:16:36.015Z,2017-02-18T00:16:36.015Z
+ObjectId(58a795375fbc457423b17508),com.waps.ads,com/waps/ads,Waps,,,http://www.waps.cn/,ADVERTISEMENT,2017-02-18T00:16:36.015Z,2017-02-18T00:16:36.015Z
+ObjectId(58a795375fbc457423b17509),com.umeng,com/umeng,Umeng,,,https://www.umeng.com/,ADVERTISEMENT,2017-02-18T00:16:36.015Z,2017-02-18T00:16:36.016Z
+ObjectId(58a795375fbc457423b1750a),com.video.adsdk,com/video/adsdk,G+J Media - Video Ad,,,http://www.gujmedia.de/,ADVERTISEMENT,2017-02-18T00:16:36.016Z,2017-02-18T00:16:36.016Z
+ObjectId(58a795385fbc457423b1750b),cc.admore.mobile,cc/admore/mobile,Admore,,,http://www.admore.tv/,ADVERTISEMENT,2017-02-18T00:16:36.016Z,2017-02-18T00:16:36.016Z
+ObjectId(58a795385fbc457423b1750c),com.widdit,com/widdit,Widdit - Homebase,,,http://www.widdit.com/,ADVERTISEMENT,2017-02-18T00:16:36.017Z,2017-02-18T00:16:36.017Z
+ObjectId(58a795385fbc457423b1750e),com.adfeiwo.ad,com/adfeiwo/ad,Adfeiwo,,,http://adfeiwo.com,ADVERTISEMENT,2017-02-18T00:16:36.018Z,2017-02-18T00:16:36.018Z
+ObjectId(58a795395fbc457423b17510),com.medialets,com/medialets,Medialets,,,https://www.medialets.com/,ADVERTISEMENT,2017-02-18T00:16:36.018Z,2017-02-18T00:16:36.018Z
+ObjectId(58a795395fbc457423b17511),com.adpick.advertiser,com/adpick/advertiser,AdPick,,,http://www.adpick.co.kr/,ADVERTISEMENT,2017-02-18T00:16:36.018Z,2017-02-18T00:16:36.018Z
+ObjectId(58a7953a5fbc457423b17513),com.anttek.ad,com/anttek/ad,AntTek,,,http://www.anttek.com/,ADVERTISEMENT,2017-02-18T00:16:36.020Z,2017-02-18T00:16:36.020Z
+ObjectId(58a7953a5fbc457423b17514),com.mobus.ad,com/mobus/ad,Mobious Ads,,,https://mobiusads.com/en/,ADVERTISEMENT,2017-02-18T00:16:36.021Z,2017-02-18T00:16:36.021Z
+ObjectId(58a7953a5fbc457423b17515),com.appvador.ad,com/appvador/ad,AppVador,,,http://www.appvador.com/,ADVERTISEMENT,2017-02-18T00:16:36.021Z,2017-02-18T00:16:36.021Z
+ObjectId(58aaf4333c89760004d085fd),com.google.ads,com/google/ads,Google Admob,,,https://www.google.com/admob/,ADVERTISEMENT,2017-02-20T13:50:43.828Z,2017-02-20T13:50:43.828Z
+ObjectId(58aef13080d532000489f765),com.inmobi,com/inmobi,InMobi,,,http://www.inmobi.com/,ADVERTISEMENT,2017-02-23T14:26:56.146Z,2017-02-23T14:26:56.146Z
+ObjectId(58aef1d580d532000489f766),com.chartboost,com/chartboost,ChartBoost,,,https://www.chartboost.com/,ADVERTISEMENT,2017-02-23T14:29:41.286Z,2017-02-23T14:29:41.286Z
+ObjectId(58aef2b380d532000489f768),com.greystripe,com/greystripe,GreyStripe,,,http://greystripe.com,ADVERTISEMENT,2017-02-23T14:33:23.370Z,2017-02-23T14:33:23.370Z
+ObjectId(58aef32680d532000489f769),,,,,,,ANALYTICS,,
+ObjectId(58aef38080d532000489f76a),com.admob,com/admob,Admob,,,https://www.google.de/admob/,ADVERTISEMENT,2017-02-23T14:36:48.225Z,2017-02-23T14:36:48.225Z
+ObjectId(58aef3b580d532000489f76b),com.burstly,com/burstly,Burstly,,,http://www.burstly.com,ADVERTISEMENT,2017-02-23T14:37:41.101Z,2017-02-23T14:37:41.101Z
+ObjectId(58aef41c80d532000489f76c),com.cauly,com/cauly,Cauly,,,https://www.cauly.com/,ADVERTISEMENT,2017-02-23T14:39:24.732Z,2017-02-23T14:39:24.732Z
+ObjectId(58aef43e80d532000489f76d),com.mobfox,com/mobfox,MobFox,,,http://www.mobfox.com/,ADVERTISEMENT,2017-02-23T14:39:58.889Z,2017-02-23T14:39:58.889Z
+ObjectId(58aef48480d532000489f76e),com.appbrain,com/appbrain,AppBrain,,,https://www.appbrain.com/,ADVERTISEMENT,2017-02-23T14:41:08.699Z,2017-02-23T14:41:08.699Z
+ObjectId(58aef4af80d532000489f76f),net.daum,net/daum,Daum,,,http://www.daum.net/,ADVERTISEMENT,2017-02-23T14:41:51.070Z,2017-02-23T14:41:51.070Z
+ObjectId(58aef50d80d532000489f770),com.mdotm,com/mdotm,MdotM,,,http://www.crosschannel.com/,ADVERTISEMENT,2017-02-23T14:43:25.830Z,2017-02-23T14:43:25.830Z
+ObjectId(58aef55180d532000489f771),com.inneractive,com/inneractive,InnerActive,,,http://inner-active.com/,ADVERTISEMENT,2017-02-23T14:44:33.661Z,2017-02-23T14:44:33.661Z
+ObjectId(58aef59780d532000489f772),com.madhouse,com/madhouse,MadHouse,,,http://www.madhouse.co.jp/,ADVERTISEMENT,2017-02-23T14:45:43.177Z,2017-02-23T14:45:43.177Z
+ObjectId(58aef5c880d532000489f773),net.youmi,net/youmi,YouMi,,,https://www.youmi.net/,ADVERTISEMENT,2017-02-23T14:46:32.027Z,2017-02-23T14:46:32.027Z
+ObjectId(58aef5f980d532000489f774),de.madvertise,de/madvertise,Madvertise,,,http://madvertise.de/,ADVERTISEMENT,2017-02-23T14:47:21.490Z,2017-02-23T14:47:21.490Z
+ObjectId(58aef69480d532000489f776),mediba.ad,mediba/ad,Mediba,,,http://www.mediba.jp/,ADVERTISEMENT,2017-02-23T14:49:56.789Z,2017-02-23T14:49:56.789Z
+ObjectId(58aef6c680d532000489f777),com.huntmads,com/huntmads,Hunt Mobile Ads,,,http://www.wpstage.huntmads.com/,ADVERTISEMENT,2017-02-23T14:50:46.547Z,2017-02-23T14:50:46.547Z
+ObjectId(58aef72b80d532000489f778),com.tapfortap,com/tapfortap,TapForTap,,,http://http://tapfortap.com,ADVERTISEMENT,2017-02-23T14:52:27.024Z,2017-02-23T14:52:27.024Z
+ObjectId(58aef76080d532000489f779),net.metaps,net/metaps,Metaps,,,http://www.metaps.com/,ADVERTISEMENT,2017-02-23T14:53:20.525Z,2017-02-23T14:53:20.525Z
+ObjectId(58aef78b80d532000489f77a),com.wiyun,com/wiyun,WiYun,,,http://www.wiyun.com,ADVERTISEMENT,2017-02-23T14:54:03.529Z,2017-02-23T14:54:03.529Z
+ObjectId(58aef7dc80d532000489f77b),com.everbadge,com/everbadge,EverBadge,,,http://www.everbadge.com/,ADVERTISEMENT,2017-02-23T14:55:24.825Z,2017-02-23T14:55:24.825Z
+ObjectId(58aef82f80d532000489f77c),com.wooboo,com/wooboo,WooBoo,,,http://www.wooboo.com.cn/,ADVERTISEMENT,2017-02-23T14:56:47.574Z,2017-02-23T14:56:47.574Z
+ObjectId(58aef87780d532000489f77d),com.mt.airad,com/mt/airad,AirAd,,,,ADVERTISEMENT,2017-02-23T14:57:59.331Z,2017-02-23T14:57:59.331Z
+ObjectId(58aef8bf80d532000489f77e),com.noqoush.adfalcon,com/noqoush/adfalcon,AdFalcon,,,http://adfalcon.com/en/,ADVERTISEMENT,2017-02-23T14:59:11.614Z,2017-02-23T14:59:11.614Z
+ObjectId(58aef8e180d532000489f77f),com.moolah,com/moolah,Moolah,,,,ADVERTISEMENT,2017-02-23T14:59:45.597Z,2017-02-23T14:59:45.597Z
+ObjectId(58aef91380d532000489f780),com.kuguo,com/kuguo,Kuguo,,,http://www.kugou.com/,ADVERTISEMENT,2017-02-23T15:00:35.432Z,2017-02-23T15:00:35.432Z
+ObjectId(58aef94180d532000489f781),buzzcity,buzzcity,BuzzCity,,,http://www.buzzcity.com/,ADVERTISEMENT,2017-02-23T15:01:21.467Z,2017-02-23T15:01:21.467Z
+ObjectId(58aef97a80d532000489f782),com.sellaring,com/sellaring,SellaRing,,,http://www.sellaring.com,ADVERTISEMENT,2017-02-23T15:02:18.286Z,2017-02-23T15:02:18.286Z
+ObjectId(58aef9b180d532000489f783),com.admoda,com/admoda,AdModa,,,http://www.admoda.it/,ADVERTISEMENT,2017-02-23T15:03:13.107Z,2017-02-23T15:03:13.107Z
+ObjectId(58aef9f480d532000489f784),com.quclix,com/quclix,QuClix,,,,ADVERTISEMENT,2017-02-23T15:04:20.710Z,2017-02-23T15:04:20.710Z
+ObjectId(58aefa2780d532000489f785),com.ldevelop,com/ldevelop,LDevelop,,,,ADVERTISEMENT,2017-02-23T15:05:11.310Z,2017-02-23T15:05:11.310Z
