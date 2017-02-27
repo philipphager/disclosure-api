@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=11' />
+    <title>Docbox</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link href='css/base.css' rel='stylesheet' />
+    <link href='css/style.css' rel='stylesheet' />
+    <link href='css/railscasts.css' rel='stylesheet' />
+  </head>
+  <body>
+    <!--START--><div id='app'><div class="container unlimiter" data-reactroot="" data-reactid="1" data-react-checksum="892318617"><div class="fixed-top fixed-right space-left16" data-reactid="2"><div class="fill-light col6 pin-right" data-reactid="3"></div></div><div class="space-top5 scroll-styled overflow-auto pad1 width16 sidebar fixed-left fill-dark dark" data-reactid="4"><div class="pad0x small" data-reactid="5"><div class="small pad0x quiet space-top1" data-reactid="6">Introduction</div><a href="#disclosure-api" class="line-height15 pad0x pad00y quiet block " data-reactid="7">Disclosure API</a><div class="small pad0x quiet space-top1" data-reactid="8">Example</div><a href="#libraries" class="line-height15 pad0x pad00y quiet block " data-reactid="9">Libraries</a></div></div><div class="space-left16" data-reactid="10"><div class="" data-reactid="11"><div class="clearfix" data-reactid="12"><div data-title="Disclosure API" class="keyline-top section contain clearfix " data-reactid="13"><div class="space-bottom8 col6 pad2x prose clip" data-reactid="14"><h2 id="disclosure-api">Disclosure API</h2>
+<p>Welcome to the API documentation of Disclosure! </p>
+<p>This is our Disclosure API. You can use this API to request, edit
+and remove libraries that are used in the Disclosure Android App.
+The Disclosure Android App searches for these libraries in installed
+Apps on the mobile device and analyzes what permissions they are using.
+The analyzed permissions are locally saved on the device, where the
+analysis was executed.</p>
+</div></div><div data-title="Libraries" class="keyline-top section contain clearfix " data-reactid="15"><div class="space-bottom8 col6 pad2x prose clip" data-reactid="16"><h2 id="libraries">Libraries</h2>
+</div></div><div data-title="List libraries" class="keyline-top section contain clearfix " data-reactid="17"><div class="space-bottom8 col6 pad2x prose clip" data-reactid="18"><h3 id="list-libraries">List libraries</h3>
+<p>Lists all libraries.</p>
+<table>
+<thead>
+<tr>
+<th>GET Parameters</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>updatedSince</code></td>
+<td>(optional) Returns only libraries that were edited after the given date. Date format is ISO-8601.</td>
+<td>/libraries?updatedSince="2017-02-01T00:16:36.010Z"</td>
+</tr>
+<tr>
+<td><code>page</code></td>
+<td>Responses are paginated. Navigate through all pages of the response by incrementing the page index. The first page has index 1.</td>
+<td>/libraries?page=2&#x26;limit=30</td>
+</tr>
+<tr>
+<td><code>limit</code></td>
+<td>Number of returned libraries per page.</td>
+<td>/libraries?page=2&#x26;limit=30</td>
+</tr>
+</tbody>
+</table>
+</div><div class="space-bottom4 col6 pad2 prose clip fill-light space-top5" data-reactid="19"><div class='endpoint dark fill-dark round '>
+      <div class='round-left pad0y pad1x fill-lighten0 code small endpoint-method'>GET</div>
+      <div class='pad0 code small endpoint-url'>/libraries</div>
+    </div>
+<h4 id="example-request">Example request</h4>
+<pre class='hljs'>$ curl https://morning-ridge-94362.herokuapp.com/libraries?updatedAt=<span class="hljs-string">"2017-02-01T00:16:36.010Z"</span>&amp;page=2&amp;<span class="hljs-built_in">limit</span>=10</pre>
+<h4 id="example-response">Example response</h4>
+<pre class='hljs'>[
+  {
+    <span class="hljs-attr">"_id"</span>: <span class="hljs-string">"58aef38080d532000489f76a"</span>,
+    <span class="hljs-attr">"createdAt"</span>: <span class="hljs-string">"2017-02-23T14:36:48.225Z"</span>,
+    <span class="hljs-attr">"updatedAt"</span>: <span class="hljs-string">"2017-02-23T14:36:48.225Z"</span>,
+    <span class="hljs-attr">"packageName"</span>: <span class="hljs-string">"com.admob"</span>,
+    <span class="hljs-attr">"sourceDir"</span>: <span class="hljs-string">"com/admob"</span>,
+    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"Admob"</span>,
+    <span class="hljs-attr">"subtitle"</span>: <span class="hljs-string">""</span>,
+    <span class="hljs-attr">"description"</span>: <span class="hljs-string">""</span>,
+    <span class="hljs-attr">"websiteUrl"</span>: <span class="hljs-string">"https://www.google.de/admob/"</span>,
+    <span class="hljs-attr">"type"</span>: <span class="hljs-string">"ADVERTISEMENT"</span>
+  },
+  {
+      <span class="hljs-attr">"_id"</span>: <span class="hljs-string">"58aef2b380d532000489f768"</span>,
+      <span class="hljs-attr">"createdAt"</span>: <span class="hljs-string">"2017-02-23T14:33:23.370Z"</span>,
+      <span class="hljs-attr">"updatedAt"</span>: <span class="hljs-string">"2017-02-23T14:33:23.370Z"</span>,
+      <span class="hljs-attr">"packageName"</span>: <span class="hljs-string">"com.greystripe"</span>,
+      <span class="hljs-attr">"sourceDir"</span>: <span class="hljs-string">"com/greystripe"</span>,
+      <span class="hljs-attr">"title"</span>: <span class="hljs-string">"GreyStripe"</span>,
+      <span class="hljs-attr">"subtitle"</span>: <span class="hljs-string">""</span>,
+      <span class="hljs-attr">"description"</span>: <span class="hljs-string">""</span>,
+      <span class="hljs-attr">"websiteUrl"</span>: <span class="hljs-string">"http://greystripe.com"</span>,
+      <span class="hljs-attr">"type"</span>: <span class="hljs-string">"ADVERTISEMENT"</span>
+  }
+]</pre>
+</div></div><div data-title="Create a library" class="keyline-top section contain clearfix " data-reactid="20"><div class="space-bottom8 col6 pad2x prose clip" data-reactid="21"><h3 id="create-a-library">Create a library</h3>
+<p>Creates a new library.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>packageName</code></td>
+<td>the package name or id of the library</td>
+</tr>
+<tr>
+<td><code>sourceDir</code></td>
+<td>the decompiled folder structure of the library</td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td>the name of the library that is shown to the user</td>
+</tr>
+<tr>
+<td><code>subtitle</code></td>
+<td>(optional) a one-line description of the library that is shown to the user</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>(optional) description of the library that is shown to the user</td>
+</tr>
+<tr>
+<td><code>websiteUrl</code></td>
+<td>link to the website of the library developer</td>
+</tr>
+<tr>
+<td><code>type</code></td>
+<td>must be one of 
+[
+'ADVERTISEMENT', 'ANALYTICS', 'SOCIAL', 'DEVELOPER'
+]</td>
+</tr>
+</tbody>
+</table>
+</div><div class="space-bottom4 col6 pad2 prose clip fill-light space-top5" data-reactid="22"><div class='endpoint dark fill-dark round '>
+      <div class='round-left pad0y pad1x fill-lighten0 code small endpoint-method'>POST</div>
+      <div class='pad0 code small endpoint-url'>/libraries</div>
+    </div>
+<h4 id="example-request-1">Example request</h4>
+<pre class='hljs'>curl --request PUT https://morning-ridge-94362.herokuapp.com/libraries \
+  <span class="hljs-_">-d</span> @data.json</pre>
+<h4 id="example-request-body">Example request body</h4>
+<pre class='hljs'>{
+  <span class="hljs-attr">"packageName"</span>: <span class="hljs-string">"com.facebook.stetho"</span>,
+  <span class="hljs-attr">"sourceDir"</span>: <span class="hljs-string">"com/facebook/stetho"</span>,
+  <span class="hljs-attr">"title"</span>: <span class="hljs-string">"Facebook Stetho"</span>,
+  <span class="hljs-attr">"subtitle"</span>: <span class="hljs-string">""</span>,
+  <span class="hljs-attr">"description"</span>: <span class="hljs-string">""</span>,
+  <span class="hljs-attr">"websiteUrl"</span>: <span class="hljs-string">"http://www.facebook.github.io/stetho"</span>,
+  <span class="hljs-attr">"type"</span>: <span class="hljs-string">"DEVELOPER"</span>
+}</pre>
+<h4 id="example-response-1">Example response</h4>
+<pre class='hljs'>{
+  <span class="hljs-attr">"_id"</span>: <span class="hljs-string">"58aef2b380d53200048998347"</span>,
+  <span class="hljs-attr">"createdAt"</span>: <span class="hljs-string">"2017-02-23T14:33:23.370Z"</span>,
+  <span class="hljs-attr">"updatedAt"</span>: <span class="hljs-string">"2017-02-23T14:33:23.370Z"</span>,
+  <span class="hljs-attr">"packageName"</span>: <span class="hljs-string">"com.facebook.stetho"</span>,
+  <span class="hljs-attr">"sourceDir"</span>: <span class="hljs-string">"com/facebook/stetho"</span>,
+  <span class="hljs-attr">"title"</span>: <span class="hljs-string">"Facebook Stetho"</span>,
+  <span class="hljs-attr">"subtitle"</span>: <span class="hljs-string">""</span>,
+  <span class="hljs-attr">"description"</span>: <span class="hljs-string">""</span>,
+  <span class="hljs-attr">"websiteUrl"</span>: <span class="hljs-string">"http://www.sfacebook.github.io/stetho"</span>,
+  <span class="hljs-attr">"type"</span>: <span class="hljs-string">"DEVELOPER"</span>
+}</pre>
+</div></div><div data-title="Retrieve a library" class="keyline-top section contain clearfix " data-reactid="23"><div class="space-bottom8 col6 pad2x prose clip" data-reactid="24"><h3 id="retrieve-a-library">Retrieve a library</h3>
+<p>Returns a single library.</p>
+<p>Retrieve information about an existing library.</p>
+</div><div class="space-bottom4 col6 pad2 prose clip fill-light space-top5" data-reactid="25"><div class='endpoint dark fill-dark round '>
+      <div class='round-left pad0y pad1x fill-lighten0 code small endpoint-method'>GET</div>
+      <div class='pad0 code small endpoint-url'>/libraries/<span class="strong">{library_id}</span>/</div>
+    </div>
+<h4 id="example-request-2">Example request</h4>
+<pre class='hljs'>curl https://morning-ridge-94362.herokuapp.com/libraries/58aef2b380d532000489f768</pre>
+<h4 id="example-response-2">Example response</h4>
+<pre class='hljs'>{
+  <span class="hljs-attr">"_id"</span>: <span class="hljs-string">"58aef2b380d532000489f768"</span>,
+  <span class="hljs-attr">"createdAt"</span>: <span class="hljs-string">"2017-02-23T14:33:23.370Z"</span>,
+  <span class="hljs-attr">"updatedAt"</span>: <span class="hljs-string">"2017-02-23T14:33:23.370Z"</span>,
+  <span class="hljs-attr">"packageName"</span>: <span class="hljs-string">"com.greystripe"</span>,
+  <span class="hljs-attr">"sourceDir"</span>: <span class="hljs-string">"com/greystripe"</span>,
+  <span class="hljs-attr">"title"</span>: <span class="hljs-string">"GreyStripe"</span>,
+  <span class="hljs-attr">"subtitle"</span>: <span class="hljs-string">""</span>,
+  <span class="hljs-attr">"description"</span>: <span class="hljs-string">""</span>,
+  <span class="hljs-attr">"websiteUrl"</span>: <span class="hljs-string">"http://greystripe.com"</span>,
+  <span class="hljs-attr">"type"</span>: <span class="hljs-string">"ADVERTISEMENT"</span>
+}</pre>
+</div></div><div data-title="Update a library" class="keyline-top section contain clearfix " data-reactid="26"><div class="space-bottom8 col6 pad2x prose clip" data-reactid="27"><h3 id="update-a-library">Update a library</h3>
+<p>Updates the properties of a particular library.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>packageName</code></td>
+<td>the package name or id of the library</td>
+</tr>
+<tr>
+<td><code>sourceDir</code></td>
+<td>the decompiled folder structure of the library</td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td>the name of the library that is shown to the user</td>
+</tr>
+<tr>
+<td><code>subtitle</code></td>
+<td>(optional) a one-line description of the library that is shown to the user</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>(optional) description of the library that is shown to the user</td>
+</tr>
+<tr>
+<td><code>websiteUrl</code></td>
+<td>link to the website of the library developer</td>
+</tr>
+<tr>
+<td><code>type</code></td>
+<td>must be one of 
+[
+'ADVERTISEMENT', 'ANALYTICS', 'SOCIAL', 'DEVELOPER'
+]</td>
+</tr>
+</tbody>
+</table>
+</div><div class="space-bottom4 col6 pad2 prose clip fill-light space-top5" data-reactid="28"><div class='endpoint dark fill-dark round '>
+      <div class='round-left pad0y pad1x fill-lighten0 code small endpoint-method'>PATCH</div>
+      <div class='pad0 code small endpoint-url'>/libraries/<span class="strong">{library_id}</span>/</div>
+    </div>
+<h4 id="example-request-3">Example request</h4>
+<pre class='hljs'>curl --request PATCH https://morning-ridge-94362.herokuapp.com/libraries/58aef2b380d532000489f768 \
+  <span class="hljs-_">-d</span> @data.json</pre>
+<h4 id="example-request-body-1">Example request body</h4>
+<pre class='hljs'>{
+  <span class="hljs-attr">"packageName"</span>: <span class="hljs-string">"com.facebook.stetho"</span>,
+  <span class="hljs-attr">"sourceDir"</span>: <span class="hljs-string">"com/facebook/stetho/android"</span>,
+  <span class="hljs-attr">"title"</span>: <span class="hljs-string">"Facebook Stetho"</span>,
+  <span class="hljs-attr">"subtitle"</span>: <span class="hljs-string">""</span>,
+  <span class="hljs-attr">"description"</span>: <span class="hljs-string">""</span>,
+  <span class="hljs-attr">"websiteUrl"</span>: <span class="hljs-string">"http://www.sfacebook.github.io/stetho"</span>,
+  <span class="hljs-attr">"type"</span>: <span class="hljs-string">"DEVELOPER"</span>
+}</pre>
+<h4 id="example-response-3">Example response</h4>
+<pre class='hljs'>{
+  <span class="hljs-attr">"_id"</span>: <span class="hljs-string">"58aef2b380d532000489f768"</span>,
+  <span class="hljs-attr">"createdAt"</span>: <span class="hljs-string">"2017-02-23T14:33:23.370Z"</span>,
+  <span class="hljs-attr">"updatedAt"</span>: <span class="hljs-string">"2017-02-23T14:33:23.370Z"</span>,
+  <span class="hljs-attr">"packageName"</span>: <span class="hljs-string">"com.facebook.stetho"</span>,
+  <span class="hljs-attr">"sourceDir"</span>: <span class="hljs-string">"com/facebook/stetho/android"</span>,
+  <span class="hljs-attr">"title"</span>: <span class="hljs-string">"Facebook Stetho"</span>,
+  <span class="hljs-attr">"subtitle"</span>: <span class="hljs-string">""</span>,
+  <span class="hljs-attr">"description"</span>: <span class="hljs-string">""</span>,
+  <span class="hljs-attr">"websiteUrl"</span>: <span class="hljs-string">"http://www.sfacebook.github.io/stetho"</span>,
+  <span class="hljs-attr">"type"</span>: <span class="hljs-string">"DEVELOPER"</span>
+}</pre>
+</div></div><div data-title="Delete a library" class="keyline-top section contain clearfix " data-reactid="29"><div class="space-bottom8 col6 pad2x prose clip" data-reactid="30"><h3 id="delete-a-library">Delete a library</h3>
+<p>Deletes a library</p>
+</div><div class="space-bottom4 col6 pad2 prose clip fill-light space-top5" data-reactid="31"><div class='endpoint dark fill-dark round '>
+      <div class='round-left pad0y pad1x fill-lighten0 code small endpoint-method'>DELETE</div>
+      <div class='pad0 code small endpoint-url'>/library/<span class="strong">{library_id}</span></div>
+    </div>
+<h4 id="example-request-4">Example request</h4>
+<pre class='hljs'>curl -X DELETE https://morning-ridge-94362.herokuapp.com/libraries/58aef2b380d532000489f768</pre>
+<h4 id="example-response-4">Example response</h4>
+<blockquote>
+<p>HTTP 204</p>
+</blockquote>
+</div></div></div></div></div><div class="fixed-top space-left16" data-reactid="32"><div class="events fill-light bottom-shadow pad1 col6 pin-topright  " data-reactid="33"><div class="space-right1 small quiet inline" data-reactid="34">Show examples in:</div><div class="rounded-toggle inline short" data-reactid="35"><a class="strong active" data-reactid="36">cURL</a><a class="strong " data-reactid="37">Java</a></div><div class="fr pad0" data-reactid="38"><a title="Display as 1 column" style="cursor:pointer;" class="icon quiet caret-left pad0 fill-darken0 round" data-reactid="39"></a></div></div></div><div class="fill-dark dark bottom-shadow fixed-top pad0 width16" data-reactid="40"><a href="/" class="active space-top1 space-left1 pin-topleft icon round dark pad0 fill-red" data-reactid="41"></a><div class="strong small pad0
+          
+          space-left4 line-height15" data-reactid="42">Disclosure API Documentation</div></div></div></div><!--STOP-->
+    <script src='bundle.js'></script>
+  </body>
+</html>
