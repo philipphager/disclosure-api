@@ -7,7 +7,7 @@ module.exports = () => {
 
     router.route('/')
         .get((req, res, next) => {
-            res.json({ message: 'hello' });
+            res.redirect('/docs');
         });
 
     return router;
