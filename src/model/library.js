@@ -18,12 +18,10 @@ const librarySchema = new Schema({
         required: true
     },
     subtitle: {
-        type: String,
-        required: true
+        type: String
     },
     description: {
-        type: String,
-        required: true
+        type: String
     },
     websiteUrl: {
         type: String
