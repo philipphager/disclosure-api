@@ -30,7 +30,7 @@ const librarySchema = new Schema({
     },
     type: {
         type: String,
-        enum: ['ANALYTICS', 'ADVERTISMENT', 'DEVELOPER', 'SOCIAL'],
+        enum: ['ANALYTICS', 'ADVERTISEMENT', 'DEVELOPER', 'SOCIAL'],
         required: true
     },
     createdAt: Date,
