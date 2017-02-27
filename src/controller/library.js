@@ -1,7 +1,7 @@
 // Dependency -----------------------------------------------------------------
-const express = require('express');
-const Library = require('../model/library');
-const querymen = require('querymen');
+const express = require('express'),
+    Library = require('../model/library'),
+    querymen = require('querymen');
 
 // Routes ---------------------------------------------------------------------
 module.exports = () => {
