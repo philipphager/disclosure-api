@@ -11,7 +11,7 @@ module.exports = () => {
     router.route('/').get(querymen.middleware({
         updatedSince: {
             type: Date,
-            paths: ['updatedAt'],
+            paths: ['updatedSince'],
             operator: '$gt'
         }
     }), (req, res, next) => {
@@ -40,7 +40,7 @@ module.exports = () => {
 
 
     // Create a new library
-    router.route('/new')
+    router.route('/')
         .post((req, res, next) => {
             let library = new Library(req.body);
 
@@ -55,7 +55,7 @@ module.exports = () => {
 
     // Update a library
     router.route('/:libraryId')
-        .put((req, res, next) => {
+        .patch((req, res, next) => {
             let id = req.params.libraryId;
 
             Library.findByIdAndUpdate(id, req.body, { new: true })
