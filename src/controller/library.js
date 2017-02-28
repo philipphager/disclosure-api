@@ -11,7 +11,7 @@ module.exports = () => {
     router.route('/').get(querymen.middleware({
         updatedSince: {
             type: Date,
-            paths: ['updatedSince'],
+            paths: ['updatedAt'],
             operator: '$gt'
         }
     }), (req, res, next) => {
