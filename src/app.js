@@ -1,5 +1,6 @@
 // Dependencies ---------------------------------------------------------------
 const express = require('express'),
+    compression = require('compression'),
     mongoose = require('mongoose'),
     bodyParser = require('body-parser'),
     config = require('./env/config.js'),
@@ -18,9 +19,10 @@ mongoose.connect(config.db.url)
 // Express App ----------------------------------------------------------------
 const app = express();
 
-// Middleware, Routing --------------------------------------------------------
+// Middleware -----------------------------------------------------------------
 app.use(bodyParser.json());
 app.use(router());
+app.use(compression());
 
 // Start Server ---------------------------------------------------------------
 app.listen(config.server.port, (err) => {
