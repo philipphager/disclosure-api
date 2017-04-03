@@ -1,4 +1,4 @@
-# Bachelorarbeit Server API - Disclosure
+# Disclosure Server API
 
 ## Setup and usage
 Install all dependencies with npm by running `npm install`. Afterwards you can 
